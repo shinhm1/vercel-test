@@ -3,10 +3,10 @@
 const Page2 = () => {
     return (
         <div>
-            <h1>page 2</h1>
-            <button onClick={() => (window.location.href = "/page1")}>move to page1</button>
-            <button onClick={() => (window.location.href = "/page3")}>move to page3</button>
-            <button onClick={() => (window.location.href = "/")}>Home</button>
+            <h1>2번</h1>
+            <button onClick={() => (window.location.href = "/page1")}>1번</button>
+            <button onClick={() => (window.location.href = "/page3")}>3번</button>
+            <button onClick={() => (window.location.href = "/")}>홈</button>
         </div>
     );
 };
